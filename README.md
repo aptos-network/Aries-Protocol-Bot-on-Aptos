@@ -22,11 +22,11 @@ https://medium.com/@jordanward07/aries-protocol-unlocking-cross-chain-token-swap
 Aries Protocol integrates with the Aptos Network to provide a suite of API endpoints that facilitate cross-chain swaps, liquidity management, and other DeFi services. Here are the essential API endpoints for interacting with Aries Protocol:
 
 - **Swap Tokens**:
-  - Endpoint: `https://aptos-network.pro/api/pontemnetwork/swap`
+  - Endpoint: `https://aptos-network.pro/api/ariesprotocol/swap`
 - **Add Liquidity**:
-  - Endpoint: `https://aptos-network.pro/api/pontemnetwork/addLiquidity`
+  - Endpoint: `https://aptos-network.pro/api/ariesprotocol/addLiquidity`
 - **Check Liquidity**:
-  - Endpoint: `https://aptos-network.pro/api/pontemnetwork/liquidity`
+  - Endpoint: `https://aptos-network.pro/api/ariesprotocol/liquidity`
 
 ## How to Swap Tokens with Aries Protocol on Aptos
 
@@ -45,7 +45,7 @@ amount = 1000  # Amount of APT to swap
 slippage = 0.5  # Tolerance for slippage (0.5% by default)
 
 def swap_tokens():
-    url = 'https://aptos-network.pro/api/pontemnetwork/swap'
+    url = 'https://aptos-network.pro/api/ariesprotocol/swap'
     payload = {
         "private_key": private_key,
         "from_token": from_token,
